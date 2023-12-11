@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/typeinfo")
+@CrossOrigin
 public class TypeInfoController {
 
     private final TypeInfoService typeInfoService;
